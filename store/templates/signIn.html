@@ -1,0 +1,14 @@
+{% extends 'layouts.html' %}
+{% block content%}
+{% load crispy_forms_tags %}
+<div class="container my-4" style="width: 50%;">
+    <center><h2>SignIn</h2></center>
+    <hr/>
+    <form method="post" >
+        {% csrf_token %}
+        <p>{{form | crispy}}</p>
+        <input type="submit" class="btn btn-success" value="Login"/>
+        <hr/>
+     </form>
+</div>
+{% endblock%}
