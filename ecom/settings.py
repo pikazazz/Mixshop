@@ -25,7 +25,7 @@ SECRET_KEY = '%8g##a+g!jd4m_@y1lh!)z(n6h)u_+4hv156n%p#fq8djgq66w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://git.heroku.com/rocky-harbor-66963.git']
+ALLOWED_HOSTS = ['https://sheltered-hamlet-18664.herokuapp.com/']
 
 STATIC_URL='/static/'
 STATIC_ROOT=os.path.join(BASE_DIR,'static')
